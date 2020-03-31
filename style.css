@@ -16,7 +16,7 @@ h1 {
   grid-template-rows: 1fr 4fr 1fr;
   grid-template-areas:
     ". main-title . ."
-    ". . artical-title-1 ."
+    ". .artical-title-1 ."
     "artical-img-1 . . ."
     ". . artical-text-1 ."
     "video . . ."

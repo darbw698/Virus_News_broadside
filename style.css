@@ -17,10 +17,10 @@ h1 {
   grid-template-areas:
     ". main-title . ."
     ". . artical-title-1 ."
-    "artical-img . . ."
+    "artical-img-1 . . ."
     ". . artical-text-1 ."
     "video . . ."
-    ".  . artical-img ."
+    ".  . artical-img-2 ."
     "artical-text-2 . . ."
     ". . . artical-title-2"
     "artical-title-3 . . ."

@@ -9,3 +9,20 @@ h1 {
   font-style: italic;
   color: #373fff;
 }
+
+.layoutparent {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: 1fr 4fr 1fr;
+  grid-template-areas:
+    ". main-title . ."
+    ". . artical-title-1 ."
+    "artical-img . . ."
+    ". . artical-text-1 ."
+    "video . . ."
+    ".  . artical-img ."
+    "artical-text-2 . . ."
+    ". . . artical-title-2"
+    "artical-title-3 . . ."
+    "artical-title-4 . . .";
+}

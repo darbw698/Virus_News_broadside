@@ -1,13 +1,21 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: helvetica, arial, sans-serif;
-  margin: 3em;
+  font-family: 'Playfair Display', serif;
+  background-color:
 }
 
 h1 {
-  font-style: italic;
+  color: rgb(219, 112, 147);
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-size: 4vw;
   
+}
+
+p {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
 }
 
 .layoutparent {

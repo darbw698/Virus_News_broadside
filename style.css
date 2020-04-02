@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Playfair Display', serif;
-  background-color:
+  background-color: cornsilk;
 }
 
 h1 {
@@ -48,13 +48,19 @@ h5 {
 a {
   color: green;
   font-family: 'Playfair Display', serif;
+  align-self: 
   text-decoration: none;
 }
 
+pre {
+  font-family: 'Playfair Display', serif;
+  
+}
 
 p {
-  font-size: 3vw;
-  text-align: center;
+  color: darkmagenta;
+  font-size: 4vw;
+  text-align: center
   font-family: 'Playfair Display', serif;
 }
 

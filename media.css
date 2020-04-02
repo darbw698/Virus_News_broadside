@@ -3,8 +3,68 @@
   body{
   font-family: 'Playfair Display', serif;
   background-color: snow;
-    font-size: 24px;
+  font-size: 24px;
   }
+  
+  h1 {
+  color: orange;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-size: 24px;
+  
+}
+
+h2 {
+  color: orange;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-size: 24px;
+  
+}
+
+h3 {
+  color: orange;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-size: 24px;
+  
+}
+
+h4 {
+  color: orange;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-size: 24px;
+  
+}
+
+h5 {
+  color: orange;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-size: 24px;
+  
+}
+
+a {
+  color: green;
+  font-family: 'Playfair Display', serif;
+  align-self: center;
+  text-decoration: none;
+}
+
+pre {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5vw;
+  
+}
+
+p {
+  color: darkmagenta;
+  font-size: 24px;
+  text-align: center
+  font-family: 'Playfair Display', serif;
+}
   
 .layoutparent {
   display: grid;

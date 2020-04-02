@@ -6,12 +6,51 @@ body {
 }
 
 h1 {
-  color: rgb(219, 112, 147);
+  color: orange;
   font-family: 'Playfair Display', serif;
   text-align: center;
-  font-size: 4vw;
+  font-size: 3vw;
   
 }
+
+h2 {
+  color: orange;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-size: 3vw;
+  
+}
+
+h3 {
+  color: orange;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-size: 3vw;
+  
+}
+
+h4 {
+  color: orange;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-size: 3vw;
+  
+}
+
+h5 {
+  color: orange;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-size: 3vw;
+  
+}
+
+a {
+  color: green;
+  font-family: 'Playfair Display', serif;
+  text-decoration: none;
+}
+
 
 p {
   text-align: center;

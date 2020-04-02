@@ -53,16 +53,17 @@ a {
 
 
 p {
+  font-size: 3vw;
   text-align: center;
   font-family: 'Playfair Display', serif;
 }
 
 .layoutparent {
   display: grid;
-  grid-template-columns: 1fr 4fr 1fr;
-  grid-template-rows: 1fr 4fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+/*   grid-template-rows: 1fr 4fr 1fr; */
   grid-template-areas:
-    ". . main-title  ."
+    "main-title  main-title  main-title  main-title"
     ". . . artical-title-1"
     ". artical-img-1 . ."
     ". . . artical-text-1"

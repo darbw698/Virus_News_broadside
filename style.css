@@ -59,11 +59,12 @@ pre {
 }
 
 p {
-  color: darkmagenta;
+  color: darkblue;
   font-size: 4vw;
   text-align: center
   font-family: 'Playfair Display', serif;
 }
+
 
 .layoutparent {
   display: grid;

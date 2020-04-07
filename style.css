@@ -1,104 +1,96 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   background-color: snow;
 }
 
 h1 {
   color: orange;
-  font-family: 'Times', serif;
+  font-family: "Times", serif;
   text-align: center;
   font-size: 3vw;
-  
 }
 
 h2 {
   color: orange;
-  font-family: 'Times', serif;
+  font-family: "Times", serif;
   text-align: center;
   font-size: 3vw;
-  
 }
 
 h3 {
   color: orange;
-  font-family: 'Times, serif;
+  font-family: "Times", serif;
   text-align: center;
   font-size: 3vw;
-  
 }
 
 h4 {
   color: orange;
-  font-family: 'Times', serif;
+  font-family: "Times", serif;
   text-align: center;
   font-size: 3vw;
-  
 }
 
 h5 {
   color: orange;
-  font-family: 'Times', serif;
+  font-family: "Times", serif;
   text-align: center;
   font-size: 3vw;
-  
 }
 
 .linkup {
   font-size: 3vw;
 }
 
-
 a {
   color: green;
-  font-family: 'Times', serif;
+  font-family: "Times", serif;
   align-self: center;
   text-decoration: none;
 }
 
 pre {
-  font-family: 'Times', serif;
+  font-family: "Times", serif;
   font-size: 1.5vw;
-  
 }
 
 p {
   color: darkblue;
   font-size: 4vw;
-  text-align: center
-  font-family: 'Times', serif;
+  text-align: center;
+  font-family: "Times", serif;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width: 768px) {
   
-  body{
-  font-size: 24px;
+  body {
+    font-size: 24px;
   }
-  
+
   .layoutparent {
-  display: grid;
-  grid-template-columns: 1fr;
-/*   grid-template-rows: 1fr 4fr 1fr; */
-  grid-template-areas:
-    "main-title"
-    "articaltitle1"
-    "articalimg1"
-    "articaltext1"
-    "video"
-    "articalimg2"
-    "articaltext2"
-    "articaltitle2"
-    "articaltitle3"
-    "articaltitle4";
-}
-  
+    display: grid;
+    grid-template-columns: 1fr;
+    /*   grid-template-rows: 1fr 4fr 1fr; */
+    grid-template-areas:
+      "main-title"
+      "articaltitle1"
+      "articalimg1"
+      "articaltext1"
+      "video"
+      "articalimg2"
+      "articaltext2"
+      "articaltitle2"
+      "articaltitle3"
+      "articaltitle4";
+  }
 }
 
 .layoutparent {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-/*   grid-template-rows: 1fr 4fr 1fr; */
+  /*   grid-template-rows: 1fr 4fr 1fr; */
   grid-template-areas:
     "main-title  main-title  main-title  main-title"
     ". . artical-title-1 artical-title-1"

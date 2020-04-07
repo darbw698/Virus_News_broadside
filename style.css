@@ -45,6 +45,13 @@ h5 {
   
 }
 
+.linkup {
+  color: green;
+  font-family: 'Playfair Display', serif;
+  align-self: center;
+  font-size: 3vw;
+}
+
 a {
   color: green;
   font-family: 'Playfair Display', serif;
@@ -65,6 +72,13 @@ p {
   font-family: 'Playfair Display', serif;
 }
 
+@media screen and (max-width:980px){
+  
+  body{
+  font-size: 658px;
+  }
+  
+}
 
 .layoutparent {
   display: grid;

@@ -3,6 +3,7 @@
   body {
     font-size: 24px;
   }
+  
 
   .layoutparent {
     display: grid;
@@ -17,7 +18,7 @@
       "artical-img-2"
       "artical-text-2"
       "artical-title-2"
-      "articaltitle3"
-      "articaltitle4";
+      "artical-title-3"
+      "artical-title-4";
   }
 }

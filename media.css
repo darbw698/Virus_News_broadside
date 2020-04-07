@@ -1,29 +1,23 @@
-@media screen and (max-width:980px){
+@media screen and (max-width: 768px) {
   
-  body{
-  font-family: 'Playfair Display', serif;
-  background-color: snow;
-  font-size: 768px;
+  body {
+    font-size: 24px;
   }
-}
-  
-  
-.layoutparent {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-/*   grid-template-rows: 1fr 4fr 1fr; */
-  grid-template-areas:
-    "main-title  main-title  main-title  main-title"
-    ". . artical-title-1 artical-title-1"
-    "artical-img-1 artical-img-1 . ."
-    ". . . artical-text-1"
-    ". video . ."
-    ". . . artical-img-2"
-    ". artical-text-2 . ."
-    ". . . artical-title-2"
-    ". artical-title-3 . ."
-    ". artical-title-4 . .";
-}
 
-  
+  .layoutparent {
+    display: grid;
+    grid-template-columns: 1fr;
+    /*   grid-template-rows: 1fr 4fr 1fr; */
+    grid-template-areas:
+      "main-title"
+      "artical-title-1"
+      "artical-img-1"
+      "artical-text-1"
+      "video"
+      "artical-img-2"
+      "artical-text-2"
+      "artical-title-2"
+      "articaltitle3"
+      "articaltitle4";
+  }
 }

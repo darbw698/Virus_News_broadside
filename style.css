@@ -49,6 +49,7 @@ h5 {
   font-size: 3vw;
 }
 
+
 a {
   color: green;
   font-family: 'Playfair Display', serif;
@@ -72,7 +73,7 @@ p {
 @media screen and (max-width:980px){
   
   body{
-  font-size: 658px;
+  font-size: 768px;
   }
   
 }

@@ -51,6 +51,12 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+
 pre {
   font-family: "Times", serif;
   font-size: 1.5vw;

@@ -40,6 +40,13 @@ h5 {
   font-size: 3vw;
 }
 
+h6 {
+  color: orange;
+  font-family: "Times", serif;
+  text-align: center;
+  font-size: 2vw;
+}
+
 .linkup {
   font-size: 3vw;
 }
